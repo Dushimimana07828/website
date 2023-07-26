@@ -1,0 +1,122 @@
+
+.navigation{
+    position: fixed;
+    height: 70px;
+    right: 0;
+    left: 0;
+    background-color: rgba(192, 0, 199, 0.62);
+    box-sizing: border-box;
+    -webkit-box-shadow:0px 17px 50px 11px     ;
+    -moz-box-shadow:0px 17px 59px 11px     rgba(63,0,199,0.62) ;
+    box-shadow:0px 17px 59px 11px     rgba(192, 0, 199, 0.62);
+}
+.navigation h1{
+    position: fixed;
+    top: 0;
+    left: 0;
+    margin: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    color:khaki;
+font-style: italic;
+    background-image: linear-gradient( to right,
+ 
+    );
+background-clip:text;
+-webkit-background-clip:text;
+text-emphasis-color:transparent;
+
+} 
+
+ul{
+    position:relative;
+    height: 70px;
+    left: 810px;
+
+}
+li{
+    display: inline-block;
+   
+    width: 90px;
+    height: 40px;
+    padding-top: 25px;
+    font-weight: bold;
+    list-style:none;
+    text-align: center;
+    text-transform: uppercase;
+    position:relative;
+}
+a{
+    color: white;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-decoration: none;
+  
+
+}
+a:hover{
+    background-color:red;
+    box-shadow: red;
+    -webkit-box-shadow:0px 0px 400px 86px  #a581ff5b ;
+    -moz-box-shadow:0px 0px 400px 86px #a581ff5b;
+    text-decoration:underline white; 
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition:  .4s;
+}
+p{
+    color:steelblue;
+    margin-left: 30px;
+    font-size:large;
+}
+img{
+    
+    margin-top:90px;
+    margin-left: 1000px;
+border-radius:100px; 
+}
+img:hover{
+    transition: .4s;
+}
+.logo{
+
+    margin-left: 30px;
+   box-shadow:indianred;
+  
+   border-radius: 30px;
+   font-size: 60PX;
+   
+  
+}
+header{
+  
+   text-align: center;
+  color: rgb(0, 21, 255);
+   
+}
+
+.btn {
+    float:right;
+    background-color: #f9004d;
+    color: white;
+    text-decoration: none;
+    border: 2px solid transparent;
+    font-weight: bold;
+    padding: 10px 25px;
+    border-radius: 30px;
+    transition: transform .4s;
+    margin-top: 400px;
+    margin-right:200px;
+}
+
+.btn:hover{
+    transform:scale(1.2);
+    color: aliceblue;
+}
+.se{
+font-size:small;
+margin-left:30px;
+padding-bottom:0px;
+}
